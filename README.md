@@ -87,29 +87,25 @@ Login Page
 Dashboard Page
 ![Image](https://github.com/user-attachments/assets/9868454e-4427-4af7-8070-7b18956d9fb2)
 
-📄 Lisensi
+📄 **Lisensi**
 Proyek ini menggunakan lisensi MIT License.
 
-✅ Roadmap (To Do)
- Tambahkan dark mode toggle
+✅ **Roadmap** (To Do)
+- Tambahkan dark mode toggle
+- Reminder atau pengingat waktu untuk catatan
+- Upload file/gambar di dalam catatan
+- Export catatan ke PDF
+- Kolaborasi catatan (multi user)
 
- Reminder atau pengingat waktu untuk catatan
-
- Upload file/gambar di dalam catatan
-
- Export catatan ke PDF
-
- Kolaborasi catatan (multi user)
-
-🙋 Kontribusi
+🙋 **Kontribusi**
 Pull request sangat diterima! Untuk perubahan besar, silakan buka issue terlebih dahulu untuk mendiskusikan apa yang ingin kamu ubah.
 
-💬 Kontak
+💬 **Kontak**
 Jika ada pertanyaan, hubungi saya melalui:
     
-Email: yourname@email.com
+- Email: izzawildan88@email.com
 
-Instagram: @yourhandle
+- Instagram: @izza.wildan
 
 Dibuat dengan ❤️ menggunakan Next.js + Supabase oleh [Nama Kamu]. Jangan lupa bintangin repo ini di GitHub jika kamu suka 🙌
 
