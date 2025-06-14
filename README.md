@@ -81,9 +81,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 
 Screenshots
 Login Page	
+![Image](https://github.com/user-attachments/assets/ed9ae275-4f15-4d39-8509-bc98315129aa)
+
 
 Dashboard Page
-
+![Image](https://github.com/user-attachments/assets/9868454e-4427-4af7-8070-7b18956d9fb2)
 
 📄 Lisensi
 Proyek ini menggunakan lisensi MIT License.
