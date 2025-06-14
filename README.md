@@ -108,12 +108,3 @@ Jika ada pertanyaan, hubungi saya melalui:
 - Instagram: @izza.wildan
 
 Dibuat dengan ❤️ menggunakan Next.js + Supabase oleh [Nama Kamu]. Jangan lupa bintangin repo ini di GitHub jika kamu suka 🙌
-
----
-
-Kalau kamu ingin saya bantu sesuaikan:
-- nama akun GitHub
-- URL asli repo
-- email/handle asli
-
-Tinggal beri tahu, nanti saya bantu revisi sesuai profil kamu.
