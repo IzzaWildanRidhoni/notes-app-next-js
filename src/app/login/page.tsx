@@ -19,6 +19,15 @@ export default function Login() {
     else alert(error.message)
   }
 
+  const handleGoogleLogin = async () => {
+    await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: {
+        redirectTo: `${location.origin}/dashboard`,
+      },
+    })
+  }
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-blue-100 px-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-xl p-8 sm:p-10">
@@ -58,6 +67,27 @@ export default function Login() {
             }`}
           >
             {isLoading ? 'Loading...' : 'Login'}
+          </button>
+
+          {/* Divider */}
+          <div className="flex items-center justify-center gap-2 text-sm text-gray-400 mt-4">
+            <div className="flex-1 h-px bg-gray-300" />
+            or
+            <div className="flex-1 h-px bg-gray-300" />
+          </div>
+
+          {/* Google Login Button */}
+          <button
+            onClick={handleGoogleLogin}
+            className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white font-semibold transition duration-300 shadow"
+          >
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M21.35 11.1h-9.18v2.92h5.78c-.25 1.44-1.4 2.67-2.77 3.23v2.7h4.49c2.63-2.42 4.1-6.01 4.1-8.94 0-.61-.05-1.2-.15-1.77l-.27-1.14z" />
+              <path d="M12.17 21c2.38 0 4.38-.78 5.84-2.12l-2.76-2.7c-.76.5-1.74.78-3.08.78-2.36 0-4.36-1.57-5.08-3.7h-3.07v2.29c1.46 2.89 4.5 5.45 8.15 5.45z" />
+              <path d="M7.09 12.96c-.18-.54-.29-1.13-.29-1.75s.1-1.2.28-1.74V7.18H3.99A8.944 8.944 0 0 0 3 11.2c0 1.49.36 2.9.99 4.02l3.1-2.26z" />
+              <path d="M12.17 4.96c1.3 0 2.46.44 3.38 1.31l2.53-2.52C16.53 2.17 14.53 1.2 12.17 1.2 8.52 1.2 5.48 3.76 3.99 6.62l3.1 2.29c.72-2.14 2.72-3.7 5.08-3.7z" />
+            </svg>
+            Login with Google
           </button>
         </div>
 
